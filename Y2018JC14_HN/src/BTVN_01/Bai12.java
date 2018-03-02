@@ -22,6 +22,7 @@ public class Bai12 {
 			float delta = b * b - 4 * a * c;      
 			if (delta < 0)
 				System.out.println("Phuong trinh vo nghiem");
+			
 			else if (delta == 0)
 				System.out.println("Phuong trinh co nghiem kep x= " + (float) -b / 2 * a);
 			else {
